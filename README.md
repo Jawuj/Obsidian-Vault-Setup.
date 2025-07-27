@@ -42,6 +42,3 @@ You’re welcome :p
 
 ---
 
- [Vault Setup.](https://github.com/Jawuj/Obsidian-Vault-Setup.)
-[[OtherThingsInSetup.]] 
-
