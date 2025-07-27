@@ -1,0 +1,81 @@
+/* 🗓️ Calendar days: dramatic hover without rotation */
+.calendar-grid[data-v-063a3437] > *:hover {
+  transform: scale(1.25);
+  background-color: var(--color-accent);
+  color: var(--text-on-accent);
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s cubic-bezier(0.25, 1.5, 0.5, 1.25);
+}
+
+/* 📍 Today's date: bounce effect */
+.calendar[data-v-063a3437] [data-today]:hover {
+  animation: bounce-today 0.6s ease;
+  background-color: var(--color-accent);
+  color: var(--text-on-accent);
+  border-radius: 10px;
+}
+
+@keyframes bounce-today {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.3); }
+  60%  { transform: scale(0.9); }
+  100% { transform: scale(1.1); }
+}
+
+/* ✅ Selected day: zoom-glow effect without rotation */
+.calendar[data-v-063a3437] [data-selected]:hover {
+  transform: scale(1.3);
+  background-color: var(--background-secondary);
+  border: 2px dashed var(--color-accent);
+  color: var(--text-accent);
+  box-shadow: 0 0 15px var(--color-accent);
+  transition: all 0.25s ease-in-out;
+}
+
+/* 📅 Calendar header: pulse effect */
+.calendar-header[data-v-063a3437] > *:hover {
+  animation: pulse-header 0.5s ease forwards;
+  color: var(--color-accent);
+}
+
+@keyframes pulse-header {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1.05); }
+}
+
+/* 🔘 Arrows: glow without rotation */
+button[data-v-ff188d28]:hover {
+  transform: scale(1.25);
+  color: var(--text-accent);
+  text-shadow: 0 0 6px var(--color-accent);
+  transition: transform 0.2s ease-in-out, color 0.2s;
+}
+
+/* ☁️ Icon buttons: soft bounce */
+.icon-button[data-v-3dd8502b]:hover {
+  animation: icon-bounce 0.4s ease-in-out;
+  background-color: var(--background-secondary-alt);
+}
+
+@keyframes icon-bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+/* 🎯 Central blocks (day, month, year): animated hover without rotation */
+.nav-block[data-v-3fb7392e]:hover,
+.nav-block-relative[data-v-3fb7392e]:hover {
+  transform: scale(1.1);
+  transition: all 0.25s ease;
+  color: var(--color-accent);
+}
+
+/* 🎯 Text elements inside the block: text glow animation */
+.nav-block[data-v-3fb7392e]:hover * {
+  color: var(--color-accent);
+  text-shadow: 0 0 6px var(--color-accent);
+  transition: color 0.3s ease;
+}

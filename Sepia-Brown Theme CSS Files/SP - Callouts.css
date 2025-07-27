@@ -1,0 +1,201 @@
+
+/* === Light Mode === */
+body.theme-light .callout[data-callout^="gradient_"] {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 4px rgba(100, 80, 50, 0.1);
+  font-family: var(--font-text);
+  overflow: hidden;
+  min-height: 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+  opacity: 1;
+  transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+body.theme-light .callout[data-callout^="gradient_"]:hover {
+  transform: scale(1.003);
+  box-shadow: 0 3px 8px rgba(90, 70, 40, 0.15);
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+}
+
+body.theme-light .callout[data-callout^="gradient_"]:hover ~ .callout[data-callout^="gradient_"],
+body.theme-light .callout[data-callout^="gradient_"]:has(~ .callout[data-callout^="gradient_"]:hover) {
+  opacity: 0.4;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] * {
+  background: transparent !important;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] .callout-title {
+  color: var(--text-accent);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  background: none;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] .callout-title-icon {
+  display: none !important;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] .callout-content {
+  color: var(--text-normal);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] p,
+body.theme-light .callout[data-callout^="gradient_"] li {
+  text-align: justify;
+}
+
+body.theme-light .callout[data-callout^="gradient_"] img,
+body.theme-light .callout[data-callout^="gradient_"] svg {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  max-height: 60px;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+/* Gradientes claros integrados */
+body.theme-light .callout[data-callout="gradient_1_1"] {
+  background: linear-gradient(135deg, #f8f0e6 0%, #e7d8c8 100%);
+}
+body.theme-light .callout[data-callout="gradient_1_2"] {
+  background: linear-gradient(135deg, #fef4e9 0%, #e8d4c0 100%);
+}
+body.theme-light .callout[data-callout="gradient_2_1"] {
+  background: linear-gradient(135deg, #f9f1e6 0%, #e6cfba 100%);
+}
+body.theme-light .callout[data-callout="gradient_2_2"] {
+  background: linear-gradient(135deg, #f2e7d7 0%, #ddc7b3 100%);
+}
+body.theme-light .callout[data-callout^="gradient_"]:not([data-callout="gradient_1_1"]):not([data-callout="gradient_1_2"]):not([data-callout="gradient_2_1"]):not([data-callout="gradient_2_2"]) {
+  background: linear-gradient(135deg, #f6ebdd 0%, #e3d0c0 100%);
+}
+
+/* === Dark Mode === */
+body.theme-dark .callout[data-callout^="gradient_"] {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 4px rgba(20, 15, 10, 0.2);
+  font-family: var(--font-text);
+  overflow: hidden;
+  min-height: 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+  opacity: 1;
+  transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"]:hover {
+  transform: scale(0.9);
+  box-shadow: 0 3px 10px rgba(40, 30, 20, 0.3);
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"]:hover ~ .callout[data-callout^="gradient_"],
+body.theme-dark .callout[data-callout^="gradient_"]:has(~ .callout[data-callout^="gradient_"]:hover) {
+  opacity: 0.4;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] * {
+  background: transparent !important;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] .callout-title {
+  color: var(--text-accent);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  background: none;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] .callout-title-icon {
+  display: none !important;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] .callout-content {
+  color: var(--text-normal);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] p,
+body.theme-dark .callout[data-callout^="gradient_"] li {
+  text-align: justify;
+}
+
+body.theme-dark .callout[data-callout^="gradient_"] img,
+body.theme-dark .callout[data-callout^="gradient_"] svg {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  max-height: 60px;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+/* Dark Gradient */
+body.theme-dark .callout[data-callout="gradient_1_1"] {
+  background: linear-gradient(135deg, #2e261f 0%, #3b2f28 100%);
+}
+body.theme-dark .callout[data-callout="gradient_1_2"] {
+  background: linear-gradient(135deg, #322922 0%, #43352e 100%);
+}
+body.theme-dark .callout[data-callout="gradient_2_1"] {
+  background: linear-gradient(135deg, #372e27 0%, #473b33 100%);
+}
+body.theme-dark .callout[data-callout="gradient_2_2"] {
+  background: linear-gradient(135deg, #3f362e 0%, #51443a 100%);
+}
+body.theme-dark .callout[data-callout^="gradient_"]:not([data-callout="gradient_1_1"]):not([data-callout="gradient_1_2"]):not([data-callout="gradient_2_1"]):not([data-callout="gradient_2_2"]) {
+  background: linear-gradient(135deg, #2b241e 0%, #3a3029 100%);
+}
+
+.callout[data-callout^="gradient_"] .callout-content {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.callout-title {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}

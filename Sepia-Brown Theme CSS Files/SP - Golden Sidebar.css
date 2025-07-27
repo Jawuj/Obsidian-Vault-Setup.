@@ -1,0 +1,456 @@
+:root {
+  --gold-0: #fff4dc;
+  --gold-1: #ffe7b2;
+  --gold-2: #f5d07d;
+  --gold-3: #e3b25f;
+  --gold-4: #c99447;
+  --gold-5: #a97c3a;
+}
+
+
+/* ---------------------- Golden Sepia for 00 ---------------------- */
+.nav-folder-title[data-path^="00"] {
+  color: var(--gold-0) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-0) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-0) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="00"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="00"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-0) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="00"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-0) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-0) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-0) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 01 ---------------------- */
+.nav-folder-title[data-path^="01"] {
+  color: var(--gold-1) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-1) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-1) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="01"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="01"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-1) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="01"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-1) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-1) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-1) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 02 ---------------------- */
+.nav-folder-title[data-path^="02"] {
+  color: var(--gold-2) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-2) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-2) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="02"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="02"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-2) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="02"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-2) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-2) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-2) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 03 ---------------------- */
+.nav-folder-title[data-path^="03"] {
+  color: var(--gold-3) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-3) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-3) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="03"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="03"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-3) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="03"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-3) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-3) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-3) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 04 ---------------------- */
+.nav-folder-title[data-path^="04"] {
+  color: var(--gold-4) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-4) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-4) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-4) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-4) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="04"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-4) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="04"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-4) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="04"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-4) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-4) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-4) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-4) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 05 ---------------------- */
+.nav-folder-title[data-path^="05"] {
+  color: var(--gold-5) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-5) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-5) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-5) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-5) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="05"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-5) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="05"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-5) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="05"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-5) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-5) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-5) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-5) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 06 ---------------------- */
+.nav-folder-title[data-path^="06"] {
+  color: var(--gold-0) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-0) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-0) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="06"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="06"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-0) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="06"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-0) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-0) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-0) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 07 ---------------------- */
+.nav-folder-title[data-path^="07"] {
+  color: var(--gold-1) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-1) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-1) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="07"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="07"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-1) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="07"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-1) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-1) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-1) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 08 ---------------------- */
+.nav-folder-title[data-path^="08"] {
+  color: var(--gold-2) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-2) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-2) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="08"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="08"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-2) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="08"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-2) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-2) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-2) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 09 ---------------------- */
+.nav-folder-title[data-path^="09"] {
+  color: var(--gold-3) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-3) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-3) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="09"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="09"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-3) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="09"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-3) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-3) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-3) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 10 ---------------------- */
+.nav-folder-title[data-path^="10"] {
+  color: var(--gold-4) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-4) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-4) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-4) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-4) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="10"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-4) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="10"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-4) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="10"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-4) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-4) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-4) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-4) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 11 ---------------------- */
+.nav-folder-title[data-path^="11"] {
+  color: var(--gold-5) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-5) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-5) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-5) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-5) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="11"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-5) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="11"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-5) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="11"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-5) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-5) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-5) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-5) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 12 ---------------------- */
+.nav-folder-title[data-path^="12"] {
+  color: var(--gold-0) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-0) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-0) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="12"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-0) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="12"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-0) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="12"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-0) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-0) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-0) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-0) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 13 ---------------------- */
+.nav-folder-title[data-path^="13"] {
+  color: var(--gold-1) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-1) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-1) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="13"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-1) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="13"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-1) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="13"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-1) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-1) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-1) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-1) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 14 ---------------------- */
+.nav-folder-title[data-path^="14"] {
+  color: var(--gold-2) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-2) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-2) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="14"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-2) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="14"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-2) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="14"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-2) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-2) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-2) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-2) var(--active-contrast-amount), transparent) !important;
+}
+
+
+/* ---------------------- Golden Sepia for 15 ---------------------- */
+.nav-folder-title[data-path^="15"] {
+  color: var(--gold-3) !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  --nav-item-color-hover: color-mix(in srgb, var(--gold-3) var(--fg-contrast-amount), var(--contrast-color)) !important;
+  --nav-item-background-hover: color-mix(in srgb, var(--gold-3) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 40%, transparent) !important;
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, transparent) !important;
+}
+
+.nav-folder-title[data-path^="15"]:hover {
+  --nav-collapse-icon-color: color-mix(in srgb, var(--gold-3) 60%, var(--contrast-color)) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="15"]) {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--gold-3) 35%, transparent) !important;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="15"]) .nav-file-title {
+  color: color-mix(in srgb, var(--gold-3) 35%, var(--default-text-color)) !important;
+  font-style: italic !important;
+  --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--gold-3) 50%, var(--highlight)) var(--bg-contrast-amount), transparent) !important;
+  --background-modifier-border-focus: color-mix(in srgb, var(--gold-3) 30%, transparent) !important;
+  --nav-item-background-active: color-mix(in srgb, var(--gold-3) var(--active-contrast-amount), transparent) !important;
+}

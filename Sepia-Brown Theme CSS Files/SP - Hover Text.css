@@ -1,0 +1,39 @@
+.hover-card {
+  position: relative;
+  cursor: pointer;
+  color: var(--text-accent);
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.2s ease;
+}
+
+.hover-card:hover {
+  color: var(--color-accent-hover); /* tono suave al pasar */
+}
+
+.hover-card::after {
+  content: attr(data-card);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  background: var(--background-secondary-alt);
+  color: var(--text-normal);
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 1000;
+  white-space: normal;
+}
+
+.hover-card:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(4px);
+}

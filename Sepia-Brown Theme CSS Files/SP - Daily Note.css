@@ -1,0 +1,153 @@
+/*------------------------------------------------------------------------------
+   Daily Note Themes — Sepia auto-adaptation by CyanVoxel
+   Sepia palette for each weekday, adapted to light and dark modes
+------------------------------------------------------------------------------*/
+
+/* === Base variables for each mode === */
+body.theme-light {
+  --highlight: #2c2c2c;
+  --primary: #a5855f;
+  --dark: #f5ecd6;
+}
+
+body.theme-dark {
+  --highlight: #eee7dd;
+  --primary: #bb9972;
+  --dark: #26211c;
+}
+
+/* === Weekday tones === */
+body.theme-light.sunday,
+body.theme-light .Sunday {
+  --primary: #d7a79d;
+  --dark: #f9ede7;
+}
+body.theme-light.monday,
+body.theme-light .Monday {
+  --primary: #c79d85;
+  --dark: #f8efe7;
+}
+body.theme-light.tuesday,
+body.theme-light .Tuesday {
+  --primary: #b89c72;
+  --dark: #f7f2e1;
+}
+body.theme-light.wednesday,
+body.theme-light .Wednesday {
+  --primary: #dac181;
+  --dark: #fef7e1;
+}
+body.theme-light.thursday,
+body.theme-light .Thursday {
+  --primary: #ddb496;
+  --dark: #fef1e4;
+}
+body.theme-light.friday,
+body.theme-light .Friday {
+  --primary: #b5a573;
+  --dark: #f7f4de;
+}
+body.theme-light.saturday,
+body.theme-light .Saturday {
+  --primary: #d7a38f;
+  --dark: #faeee2;
+}
+
+/* === General daily styling === */
+.daily {
+  color: var(--highlight);
+  --text-normal: var(--highlight);
+  --text-muted: var(--highlight);
+  --text-faint: var(--highlight);
+  --checklist-done-color: var(--highlight);
+  --metadata-label-text-color: var(--highlight);
+  --metadata-input-text-color: var(--highlight);
+  --tag-color: var(--dark);
+  --tag-background: var(--primary);
+  --hr-color: var(--primary);
+  --blockquote-border-color: var(--primary);
+  --interactive-accent: var(--primary);
+  --collapse-icon-color-collapsed: var(--primary);
+  --checkbox-color: var(--primary);
+  --checkbox-marker-color: var(--dark);
+  --checkbox-color-hover: var(--highlight);
+  --checkbox-border-color: var(--highlight);
+  --list-marker-color: var(--highlight);
+  --code-background: #1c1c1c;
+  --code-normal: var(--primary);
+  --background-modifier-border-focus: var(--primary);
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+/* === Headings and text === */
+.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+  background-color: var(--primary);
+  color: var(--dark);
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  word-wrap: normal;
+}
+
+.daily p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.daily :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primary);
+}
+.daily :is(a:hover, .cm-hmd-internal-link:hover) {
+  color: var(--highlight);
+}
+
+.daily hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.daily img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+:is(.sunday, .Sunday,
+.monday, .Monday,
+.tuesday, .Tuesday,
+.wednesday, .Wednesday,
+.thursday, .Thursday,
+.friday, .Friday,
+.saturday, .Saturday
+) svg {
+  color: color-mix(in srgb, var(--highlight) 60%, transparent);
+}

@@ -1,0 +1,76 @@
+/* === Light Mode === */
+body.theme-light .mb-button.sepia-glow > button {
+  background: linear-gradient(135deg, #f6ebdd 0%, #e3d0c0 100%) !important;
+  color: var(--text-accent) !important;
+  font-family: 'Georgia', serif !important;
+  font-weight: 500;
+  font-size: 0.92rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 14px 26px;
+  margin: 0.5rem 0;
+  box-shadow: 0 3px 6px rgba(100, 80, 50, 0.1);
+  transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+body.theme-light .mb-button.sepia-glow > button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(90, 70, 40, 0.15);
+}
+
+/* === Dark Mode === */
+body.theme-dark .mb-button.sepia-glow > button {
+  background: linear-gradient(135deg, #2b241e 0%, #3a3029 100%) !important;
+  color: var(--text-accent) !important;
+  font-family: 'Georgia', serif !important;
+  font-weight: 500;
+  font-size: 0.92rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 14px 26px;
+  margin: 0.5rem 0;
+  box-shadow: 0 3px 6px rgba(20, 15, 10, 0.2);
+  transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+body.theme-dark .mb-button.sepia-glow > button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(40, 30, 20, 0.25);
+}
+
+/* Horizontal button bar */
+.sepia-button-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sepia-button-row .mb-button {
+  margin: 0 !important;
+}
+
+/* Centered in the multi-column callout */
+.callout[data-callout="multi-column"] .callout-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding: 0.5rem 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.markdown-preview-view.centerh2 h2,
+.markdown-source-view.mod-cm6.centerh2 h2 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}

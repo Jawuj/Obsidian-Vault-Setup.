@@ -1,0 +1,38 @@
+
+/* --- LIGHT MODE --- */
+.theme-light .callout[data-callout^="gradient_"] img {
+  filter: 
+    sepia(0.3)
+    saturate(1.2)
+    brightness(0.95);
+  transition: filter 0.25s ease-in-out;
+}
+
+.theme-light .callout[data-callout^="gradient_"] img:hover {
+  filter: 
+    sepia(0.4)
+    saturate(1.4)
+    brightness(1)
+    drop-shadow(0 0 6px #c2a471);
+}
+
+/* --- DARK MODE --- */
+.theme-dark .callout[data-callout^="gradient_"] img {
+  filter: 
+    invert(1)
+    sepia(0.8)
+    saturate(1.6)
+    hue-rotate(330deg)
+    brightness(1.1);
+  transition: filter 0.25s ease-in-out;
+}
+
+.theme-dark .callout[data-callout^="gradient_"] img:hover {
+  filter: 
+    invert(1)
+    sepia(0.8)
+    saturate(1.6)
+    hue-rotate(330deg)
+    brightness(1.1)
+    drop-shadow(0 0 8px #d7b98f);
+}
